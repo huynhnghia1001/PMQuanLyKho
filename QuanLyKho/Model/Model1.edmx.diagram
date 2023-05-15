@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b16394d56d5546a3b143de3c4fbf9eb2" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="QuanLyKhoModel.Customer" Width="1.5" PointX="6" PointY="8.5" />
+        <EntityTypeShape EntityType="QuanLyKhoModel.Input" Width="1.5" PointX="3" PointY="0.75" />
+        <EntityTypeShape EntityType="QuanLyKhoModel.InputInfo" Width="1.5" PointX="5.25" PointY="4.125" />
+        <EntityTypeShape EntityType="QuanLyKhoModel.Object" Width="1.5" PointX="3" PointY="4.125" />
+        <EntityTypeShape EntityType="QuanLyKhoModel.Output" Width="1.5" PointX="6" PointY="1.125" />
+        <EntityTypeShape EntityType="QuanLyKhoModel.OutputInfo" Width="1.5" PointX="8.25" PointY="4.125" />
+        <EntityTypeShape EntityType="QuanLyKhoModel.Suplier" Width="1.5" PointX="0.75" PointY="4.25" />
+        <EntityTypeShape EntityType="QuanLyKhoModel.sysdiagram" Width="1.5" PointX="0.75" PointY="8" />
+        <EntityTypeShape EntityType="QuanLyKhoModel.Unit" Width="1.5" PointX="0.75" PointY="1.75" />
+        <EntityTypeShape EntityType="QuanLyKhoModel.UserRole" Width="1.5" PointX="8.75" PointY="8.5" />
+        <EntityTypeShape EntityType="QuanLyKhoModel.User" Width="1.5" PointX="11" PointY="8.25" />
+        <AssociationConnector Association="QuanLyKhoModel.FK__OutputInf__IdCus__5165187F" />
+        <AssociationConnector Association="QuanLyKhoModel.FK__InputInfo__IdInp__4AB81AF0" />
+        <AssociationConnector Association="QuanLyKhoModel.FK__InputInfo__Statu__49C3F6B7" />
+        <AssociationConnector Association="QuanLyKhoModel.FK__Object__BarCode__3D5E1FD2" />
+        <AssociationConnector Association="QuanLyKhoModel.FK__Object__IdSuplie__3E52440B" />
+        <AssociationConnector Association="QuanLyKhoModel.FK__OutputInf__Statu__4F7CD00D" />
+        <AssociationConnector Association="QuanLyKhoModel.FK__OutputInfo__Id__5070F446" />
+        <AssociationConnector Association="QuanLyKhoModel.FK__Users__IdRole__4316F928" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
